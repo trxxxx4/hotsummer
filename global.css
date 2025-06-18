@@ -1,0 +1,512 @@
+/**fonts => Brygada 1918 - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    Ponomar - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    Montserrat - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    Dela Gothic One - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Dela+Gothic+One&family=Great+Vibes&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    Montserrat Underline - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Dela+Gothic+One&family=Great+Vibes&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    M PLUS 1p - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Dela+Gothic+One&family=Great+Vibes&family=M+PLUS+1p&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    Yomogi - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Dela+Gothic+One&family=Great+Vibes&family=M+PLUS+1p&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yomogi&family=Yuji+Boku&display=swap" rel="stylesheet">
+    Flow Circular - <link href="https://fonts.googleapis.com/css2?family=Asset&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Dela+Gothic+One&family=Flow+Circular&family=Great+Vibes&family=M+PLUS+1p&family=Manrope:wght@200..800&family=Monomakh&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ponomar&family=Racing+Sans+One&family=Sigmar&family=Yomogi&family=Yuji+Boku&display=swap" rel="stylesheet">
+
+
+
+**/
+
+
+:root {
+    --sizeIndex: calc(1lvh + 1vw);
+}
+
+* {
+    margin: 0px 0px 0px 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.header__wraper {
+    background-color: azure;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 11lvh;
+    overflow: visible;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    overflow: visible;
+}
+
+.preview_wrapper {
+    width: 100%;
+    height: 100lvh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px 0px 1px 0px;
+    color: black;
+}
+
+.preview_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5lvh;
+
+}
+
+.preview_text {
+    font-family: 'Montserrat', serif;
+    font-size: calc(var(--sizeIndex)*3.5);
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+
+#hidden__text {
+    transform: translateY(1vh);
+
+}
+
+.black__color {
+    color: black
+}
+
+.changed__color {
+    color: orange
+}
+
+.dd {
+    height: 100lvh;
+    background-color: orange;
+}
+
+#question__section__wrapper__1 {
+    background-color: rgb(54, 157, 241);
+}
+
+#question__section__wrapper__2 {
+    background-color: greenyellow;
+}
+
+.question__section__wrapper {
+    height: 100lvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.question__section {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2lvh;
+    flex-direction: column;
+
+}
+
+.question__text {
+    font-size: calc(var(--sizeIndex)*3.5);
+    width: max-content;
+    overflow: visible;
+
+}
+
+.question__text__1 {
+    font-family: 'M PLUS 1p', serif;
+    font-style: italic;
+    font-weight: 300;
+    color: white;
+}
+
+.question__text__2 {
+    font-size: calc(var(--sizeIndex)*3);
+    font-family: 'Dela Gothic One', serif;
+
+
+
+}
+
+.answers__element__wrapper {
+    overflow-y: hidden;
+}
+
+.logotip {
+    font-family: 'Dela Gothic One', serif;
+    font-size: 8lvh;
+    overflow-y: hidden;
+}
+
+.adress__section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    overflow: visible;
+    justify-content: end;
+}
+
+.adress__text {
+    font-family: 'Yomogi', sans-serif;
+    font-size: calc(var(--sizeIndex)*1.5);
+    text-align: end;
+    overflow: visible;
+    overflow-y: hidden;
+}
+
+#question__section__2 {
+    justify-content: space-evenly;
+}
+
+#set__left {
+    width: 60%;
+    text-align: start;
+}
+
+#set__right {
+    width: 65%;
+    text-align: end;
+}
+
+#question__section__wrapper__3 {
+    background-color: palevioletred;
+
+}
+
+.question__text__3 {
+    font-family: 'Yomogi', sans-serif;
+    font-size: calc(var(--sizeIndex)*2.85);
+}
+
+#question__section__wrapper__4 {
+    background-color: orange;
+}
+
+.big__text {
+    color: dimgrey;
+    font-size: calc(var(--sizeIndex)*3.85);
+    font-family: 'Montserrat';
+    overflow-y: hidden;
+    text-align: center;
+    overflow: visible;
+}
+
+.question__text__4 {
+    font-family: 'Ponomar', sans-serif;
+    font-size: calc(var(--sizeIndex)*3.85);
+    color: orange;
+    filter: brightness(30%);
+}
+
+#answer__text {
+    font-size: calc(var(--sizeIndex)*1.85);
+    text-align: center;
+
+}
+
+#answer__section {
+    justify-content: space-evenly;
+
+}
+
+.answers__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vh;
+}
+
+#gap {
+    gap: 5vh;
+}
+
+#counter {
+    text-align: center;
+}
+
+.answer__box__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.photo__wrapper {
+    height: 20vh;
+    overflow-y: hidden;
+    width: 20vh;
+    overflow: visible;
+    border-right: 1px solid rgb(201, 201, 201);
+    position: relative;
+}
+
+.photo {
+    width: 0px;
+    height: 20vh;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.desk__box__wrapper {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(201, 201, 201);
+    height: 20vh;
+    gap: 5vw;
+    justify-content: end;
+    overflow-y: hidden;
+    align-items: center;
+
+}
+
+.desk__box__wrapper:first-child {
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
+.wide__section {
+    width: 100vw;
+}
+
+.desc__description__wrapper {
+    width: 60vw;
+    height: 90%;
+    overflow-y: hidden;
+
+}
+
+#desc__title {
+    font-size: calc(var(--sizeIndex)*1.85);
+    color: dimgrey;
+}
+
+#desc__descriprion {
+    font-size: calc(var(--sizeIndex)*1.35);
+}
+
+.swiper-pagination-bullet {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: white;
+}
+
+.changed__color__white {
+    color: white;
+}
+
+.gallary__image {
+    width: 100%;
+    height: 85%;
+
+}
+
+.changed__big__text {
+    color: white;
+}
+
+.changed__theme {
+    background-color: black
+}
+
+.gallary__text__description {
+    font-size: calc(var(--sizeIndex)*1.85);
+    overflow-y: hidden;
+}
+
+.gallary__wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: orange
+}
+
+#short__wrapper {
+    height: 90vw;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.banner__image {
+    width: 100vw;
+    aspect-ratio: 1280/960;
+    backdrop-filter: blur(20px);
+}
+
+.banner__background {
+    width: 100vw;
+    aspect-ratio: 920/960;
+    height: 140vw;
+    background-image: url(./public/orskaya2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    filter: blur(3px);
+    transform: translateY(-40%);
+
+
+
+    overflow-y: hidden;
+    overflow-y: unset;
+
+
+}
+
+.parallax-layer {
+    overflow-y: hidden;
+
+}
+
+.parallax-container {
+    overflow-y: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__wrapper {
+    overflow-y: hidden;
+    position: relative;
+
+}
+
+.no__gap {
+    gap: 0px;
+    height: 100%;
+}
+
+
+
+.banner__text__wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#no__wrapper {
+    height: min-content;
+    background-color: orange;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.chat__link {
+    text-decoration-color: black;
+    color: black;
+
+}
+
+.footer__wrapper {
+    background-color: black;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.footer__section {
+    width: 90%;
+    display: flex;
+    padding-bottom: 5vh;
+    justify-content: space-between;
+}
+.link__wrapper{
+    height: 5vh;
+    width: 5vh;
+    overflow-y: hidden;
+}
+.app__img{
+    height: 5vh;
+    width: 5vh;
+    overflow-y: hidden;
+    fill: orange;
+    transition: 300ms linear;
+
+}
+.app__img:hover{
+    fill: white;
+}
+#yt{
+    scale: 1.1;
+}
+#tg{
+scale: 1.05;
+}
+
+.postfooter__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postfooter__text {
+    font-family: 'Flow Circular';
+    text-align: center;
+    color: orange;
+
+}
+
+.postfooter__text::selection {
+    color: white;
+}
+
+.footer__logotip {
+    color: orange;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.footer__image__wrapper {
+    overflow-y: hidden;
+}
+
+.footer__image {
+    overflow-y: hidden;
+    scale: 1.02;
+}
+
+
+/*zxc*/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 93%;
+
+}
+
+.swiper-slide img {
+    display: block;
+
+    object-fit: cover;
+    pointer-events: none;
+}
