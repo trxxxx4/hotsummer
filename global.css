@@ -565,6 +565,9 @@ scale: 1.05;
 .answer__box__wrapper{
     flex-direction: column-reverse;
 }
+.preview_wrapper{
+    align-items: start;
+}
 
 }
 
