@@ -23,7 +23,7 @@
 }
 
 .header__wraper {
-    background-color: azure;
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -62,8 +62,44 @@
     text-transform: uppercase;
     color: black;
     font-weight: 600;
+    
+}
+.preview_text__string{
+    display: flex;
+    flex-direction: row;
+    
+    overflow-y: hidden;
+}
+#hidden__text__black.show{
+    opacity: 1;
+}
+#hidden__text__black{
+    animation: zxc 400ms ease forwards;
+    overflow-y: hidden;
+    padding-right: 2vw;
+    animation-delay: 200ms;
+    opacity: 0;
+    
+}
+#hidden__text__orange{
+    animation: zxc 700ms ease forwards;
+    overflow-y: hidden;
+    padding-right: 2vw;
+    animation-delay: 200ms;
+    opacity: 0;
 }
 
+@keyframes zxc {
+    0%{
+        opacity: 0;
+        transform: translateY(7vh);
+    }
+    100%{
+        transform: translateY(0vh);
+        opacity: 1;
+    }
+    
+}
 #hidden__text {
     transform: translateY(1vh);
 
@@ -485,6 +521,53 @@ scale: 1.05;
     overflow-y: hidden;
     scale: 1.02;
 }
+@media screen and (min-width: 550px) {
+.footer__image__wrapper {
+    overflow-y: hidden;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: end;
+}
+#short__wrapper {
+    height: 40vw;  
+}
+
+.banner__image {
+    width: 100vw;
+    aspect-ratio: 1280/960; 
+}
+
+.banner__background {
+    width: 100vw;
+    aspect-ratio: 920/960;
+    height: 120vh;
+    background-image: url(./public/orskaya.jpg);
+    transform: translateY(-45%);
+}
+.answers__row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5vh;
+}
+.answers__element__wrapper {
+    overflow-y: hidden;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+[data-countText='1']{
+    width: min-content;
+}
+.answer__box__wrapper{
+    flex-direction: column-reverse;
+}
+
+}
+
 
 
 /*zxc*/
