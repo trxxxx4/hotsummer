@@ -39,7 +39,7 @@ gsap.to("[data-count='3']", {
     start: 'top 90%',
     markers: 0,
   },
-  innerText: 20,
+  innerText: 154,
   duration: 4,
   snap: { innerText: 1 },
 
